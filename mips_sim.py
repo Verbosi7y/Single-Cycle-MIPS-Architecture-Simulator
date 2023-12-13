@@ -1,3 +1,16 @@
+import sys
+from os.path import *
+from components.register import Register
+from components.memory import Memory
+from components.instruction_register import Instruction
+from components.pc_register import ProgramCounter
+from components.control import Control
+from components.ALU_control import ALUControl
+from components.ALU import ALU
+
+"""
+    File: mips_sim.py
+"""
 """
     Author: Darwin Xue
     Email: x21@umbc.edu
@@ -19,18 +32,8 @@
         Special Purpose: HALT (to halt the simulation)
 """
 
-import sys
-from os.path import *
-from components.register import Register
-from components.memory import Memory
-from components.instruction_register import Instruction
-from components.pc_register import ProgramCounter
-from components.control import Control
-from components.ALU_control import ALUControl
-from components.ALU import ALU
 
-
-# Verify if file exist before running
+# Verify if files exists before running
 def verifyFiles(in_paths, com_paths):
     exit_bool = 0
 
