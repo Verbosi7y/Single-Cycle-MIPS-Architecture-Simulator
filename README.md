@@ -9,7 +9,7 @@ Simulation of a single-cycle MIPS CPU Architecture through memory state and inst
 5. Write Back.
 
 ## Installation
-**IMPORTANT: MAKE SURE YOU ARE USING Python 3.10+, OTHERWISE IT WILL NOT RUN!**
+**IMPORTANT: MAKE SURE YOU ARE USING ==Python 3.10== OR GREATER, OTHERWISE IT WILL NOT RUN!**
 
 1. If `./input` or `./output` folder is not present, execute `./setup.py` to automatically generate the folders or manually create these two folders.
 
