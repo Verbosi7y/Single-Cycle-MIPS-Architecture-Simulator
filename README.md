@@ -1,5 +1,4 @@
 # Single-Cycle MIPS Architecture Simulator
-### Author: Darwin Xue
 
 Simulation of a single-cycle MIPS CPU Architecture through memory state and instructions in 32-bits to emulate all 5-steps of a MIPS processor.
 1. Instruction Fetch
